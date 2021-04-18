@@ -1,0 +1,18 @@
+{
+    "name": "web6/debugger",
+    "description": "Debugging utilities.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "WEB6",
+            "email": "contact@web6.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "W6\\Debugger\\": "src/"
+        }
+    }
+}
