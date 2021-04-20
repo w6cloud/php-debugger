@@ -46,7 +46,7 @@ trait DebuggerTrait
 
     public function prd()
     {
-        call_user_func_array( [self, 'pr'], func_get_args() );
+        call_user_func_array( [$this, 'pr'], func_get_args() );
         die();
     }
 
@@ -57,7 +57,7 @@ trait DebuggerTrait
 
     public function vdd()
     {
-        call_user_func_array( [self, 'vd'], func_get_args() );
+        call_user_func_array( [$this, 'vd'], func_get_args() );
         die();
     }
 
@@ -68,7 +68,7 @@ trait DebuggerTrait
 
     public function ved()
     {
-        call_user_func_array( [self, 've'], func_get_args() );
+        call_user_func_array( [$this, 've'], func_get_args() );
         die();
     }
 
